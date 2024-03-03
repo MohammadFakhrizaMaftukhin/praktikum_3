@@ -1,8 +1,90 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
+    <title>Halaman Beranda</title>
+    <meta name="="viewport" content="width=device=width, initial-scale=1">
+    <meta name="author" content="Mohammad Fakhriza Maftukhin"
+    <meta name="nim" content="234311018"
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family; Arial, Helvetica, sans-serif; 
+      }
+      header {
+        background-color: #666;
+        padding: 30px;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+      }
+      nav {
+        float: left;
+        width: 30%
+        height: 300px; /* only for demonstration, should be removed */
+        background: #ccc;
+        padding: 20px;
+      }
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+      }
 
+      article {
+        float: left;
+        padding: 20px;
+        width: 70%;
+        background-color: #f1f1f1;
+        height: 300px; /* only for demonstration, should be removed */
+      }
+      section::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      footer {
+        background-color; #777;
+        padding: 10px;
+        text-align: center;
+        color: white;
+      }
+      @media (max-width: 600px) {
+        nav, article {
+            width: 100%
+            height: auto;
+        }
+      }
+    </style>
 </head>
 <body>
+    <header>
+        <h2>Cerita di Masa Kuliah</h2>
+    </header>
 
+    <section>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href=""></a>Gambar</li>
+                <li><a href=""></a>Event</li>
+                <li><a href=""></a>Audio</li>
+                <li><a href=""></a>Video</li>
+                <li><a href=""></a>SVG</li>
+                <li><a href=""></a>Canvas</li>
+            </ul>
+        </nav>
+
+        <article>
+            <h1>Dunia Perkuliahan</h1>
+            ini adalah ceritaku di masa kuliah. Masa kuliah adalah masa dimana jam tidur mulai susah diatur karena begitu padatnya kegiatan di perkuliahan.
+            Meskipun begitu padatnya jadwal saat kuliah, aku bersyukur masih bisa mendapatkan nilai diatas rata-rata ekspektasiku.
+            <p>  </p>
+        </article>
+    </section>
+
+    <footer>
+        <p> Made by Mohammad Fakhriza Maftukhin </p>
+    </footer>
 </body>
 </html>
